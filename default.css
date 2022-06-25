@@ -1,18 +1,22 @@
 section{
 	height: 500px;
-	background-color: black;
+	background-color: #3A3B3C;
 	border: solid white 1px;
 }
 
-.greetings-text{
-	background-color: white;
+.greetings{
+	height: 100px;
+	background-color: #818181;
+	border-radius: 25px;
+	text-align: center;
 	
 }
 
 .about{
-	background-color: blue;
+	background-color: #212121;
 	height: 100vh;
 }
+
 
 footer{
 	height: 500px;
