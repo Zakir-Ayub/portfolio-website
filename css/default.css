@@ -6,7 +6,7 @@ section{
 }
 
 .greetings{
-	width: 100%;
+	width: 99%;
 	height: 100%;
 	position: fixed;
 	background-color: #34495e;
@@ -53,17 +53,17 @@ footer{
 	right: 0;
   }
   .content__container:after, .content__container:before {
-	position: absolute;
-	top: 0;
-	color: #16a085;
-	font-size: 42px;
-	line-height: 40px;
-	-webkit-animation-name: opacity;
-	-webkit-animation-duration: 2s;
-	-webkit-animation-iteration-count: infinite;
-	animation-name: opacity;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
+	  position: absolute;
+	  top: 0;
+	  color: #16a089;
+	  font-size: 42px;
+	  line-height: 40px;
+	  -webkit-animation-name: opacity;
+	  -webkit-animation-duration: 2s;
+	  -webkit-animation-iteration-count: infinite;
+	  animation-name: opacity;
+	  animation-duration: 2s;
+	  animation-iteration-count: infinite;
   }
   .content__container__text {
 	display: inline;
@@ -172,7 +172,7 @@ li{
 h1{
 	font-size: 90px;
 	margin: 0;
-	font-family: 'Press Start 2P', cursive;
+	font-family: 'JetBrains Mono', monospace;
 }
 .list-text{
 	margin-left: 80px ;
@@ -190,7 +190,7 @@ h1{
 	width: 200px;
 	height: 55px;
 	border-radius: 30px;
-	background-color: coral;
+	background-color: cornflowerblue;
 	font-size: 35px;
 	text-align: center;
 	font-family: 'JetBrains Mono', monospace;
