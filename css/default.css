@@ -208,10 +208,12 @@ body{
 	font-weight: 100;
 	padding-top: 5px;
 	margin-top: 20px;
+	transition: transform 250ms;
 }
 
 .button:hover{
 	background-color: #3c6478;
+	transform: translateY(-10px);
 
 }
 .button:active{
@@ -220,6 +222,7 @@ body{
 }
 
 .socials{
+	display: grid;
 	padding-bottom: 200px;
 }
 
@@ -229,6 +232,26 @@ body{
 }
 
 .social{
-	margin: 10px;
+	margin: 15px;
 	fill: #ecf0f1;
+	justify-content: center;
+	transition: transform 250ms;
+}
+
+.social:before {
+	box-shadow: 0 0 15px #ffee10;
+	justify-content: center;
+}
+
+.social:hover{
+	color: #ffee10;
+	box-shadow: 0 0 5px #ffee10;
+	text-shadow: 0 0 5px #ffee10;
+	transform: translateY(-10px);
+	justify-content: center;
+}
+.social:hover::before {
+	transform: scale(1.1);
+	box-shadow: 0 0 15px #ffee10;
+	justify-content: center;
 }
