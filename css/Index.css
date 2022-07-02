@@ -175,6 +175,7 @@ h1{
 	font-family: 'JetBrains Mono', monospace;
 }
 .list-text{
+	padding: 10px;
 	margin-left: 80px ;
 	margin-bottom: 200px;
 }
@@ -254,4 +255,10 @@ body{
 	transform: scale(1.1);
 	box-shadow: 0 0 15px #ffee10;
 	justify-content: center;
+}
+
+.sub-section{
+	display: flex;
+	justify-content: left;
+	padding: 100px;
 }

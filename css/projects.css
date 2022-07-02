@@ -1,0 +1,20 @@
+section{
+    height: 500px;
+    background-color: #3A3B3C;
+    border: solid white 1px;
+    border-radius: 10px;
+}
+
+.about-me{
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+p{
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    font-family: 'JetBrains Mono', monospace;
+}
