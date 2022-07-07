@@ -6,12 +6,15 @@ section{
 }
 
 .greetings{
-	width: 99%;
-	height: 100%;
+	width: 40%;
+	height: 20%;
 	position: fixed;
 	background-color: #34495e;
 	border-radius: 10px;
 	object-fit: cover;
+	top: 40%;
+	bottom: 50%;
+	left: 30%;
 }
 
 .about{
@@ -27,7 +30,7 @@ footer{
   
   .content {
 	position: absolute;
-	top: 50%;
+	top: 80%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	height: 160px;
