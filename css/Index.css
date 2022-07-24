@@ -1,5 +1,5 @@
 section{
-	height: 500px;
+	height: 600px;
 	background-color: #3A3B3C;
 	border: solid white 1px;
 	border-radius: 10px;
@@ -152,6 +152,7 @@ footer{
 	height: 100vh;
 	color: white;
 	font-size: 40px;
+	background-image: linear-gradient(to right top, #b9ebd7, #8fdad4, #67c7d6, #4bb2d8, #4c9ad5, #3c92ce, #288bc8, #0083c1, #0089b2, #008b97, #008a78, #3e875a);
 }
 
 nav{
@@ -173,7 +174,7 @@ li{
 	text-decoration: none;
 }
 h1{
-	font-size: 90px;
+	font-size: 80px;
 	margin: 0;
 	font-family: 'JetBrains Mono', monospace;
 }
@@ -265,3 +266,15 @@ body{
 	justify-content: left;
 	padding: 100px;
 }
+
+.headshot{
+	width: 850px;
+	height: 850px;
+	padding-left: 400px;
+	padding-bottom: 300px;
+}
+.headshot-container{
+	display: flex;
+	align-items: flex-start;
+}
+
