@@ -279,3 +279,8 @@ body{
 	padding-left: 30px;
 }
 
+.no-blue-underline{
+	color: #ecf0f1;
+	text-decoration: none;
+}
+
