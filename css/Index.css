@@ -244,27 +244,28 @@ body{
 }
 
 .social:before {
-	box-shadow: 0 0 15px #ffee10;
+	box-shadow: 0 0 15px royalblue;
 	justify-content: center;
 }
 
 .social:hover{
-	color: #ffee10;
-	box-shadow: 0 0 5px #ffee10;
-	text-shadow: 0 0 5px #ffee10;
+	color: blue;
+	box-shadow: 0 0 5px cornflowerblue;
+	text-shadow: 0 0 5px dodgerblue;
 	transform: translateY(-10px);
 	justify-content: center;
 }
 .social:hover::before {
 	transform: scale(1.1);
-	box-shadow: 0 0 15px #ffee10;
+	box-shadow: 0 0 15px midnightblue;
 	justify-content: center;
 }
 
-.sub-section{
+.sub-section-about{
 	display: flex;
 	justify-content: left;
 	padding: 100px;
+	background-image: linear-gradient(to right top, #bef0d6, #ace5be, #9edaa3, #94ce86, #8fc168, #88bd63, #81ba5d, #7ab658, #6dba6c, #63bd7f, #5bc091, #57c2a1);
 }
 
 .headshot{
