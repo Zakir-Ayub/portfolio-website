@@ -284,3 +284,7 @@ body{
 	text-decoration: none;
 }
 
+.underline{
+	color: #1c1d25;
+	text-decoration: underline;
+}
